@@ -5,9 +5,6 @@
   "main": "query.js",
   "dependencies": {
     "css-loader": "^6.3.0",
-    "css-minimizer-webpack-plugin": "^3.1.1",
-    "mini-css-extract-plugin": "^2.4.1",
-    "minify-html-webpack-plugin": "^1.1.6",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.9.0",
     "webpack-dev-server": "^4.3.1"
@@ -17,6 +14,11 @@
     "@babel/preset-env": "^7.15.8",
     "babel-loader": "^8.2.2",
     "babel-polyfill": "^6.26.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "mini-css-extract-plugin": "^2.4.1",
+    "minify-html-webpack-plugin": "^1.1.6",
+    "purgecss-webpack-plugin": "^4.0.3",
+    "terser-webpack-plugin": "^5.2.4",
     "webpack-serve": "^4.0.0"
   },
   "scripts": {
