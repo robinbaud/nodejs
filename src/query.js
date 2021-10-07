@@ -4,20 +4,7 @@ export default async function retrieveContent() {
     return response.json();
 }
   
-export default async function grillspecial(){
-  const url = 'https://api.gill-cote-bistro.fr/specials?_sort=id:asc';
-  const reponse = await fetch(url);
-  return reponse.json();
-}
 
-export default async function grillsuggestion(){
-  const url = 'https://api.gill-cote-bistro.fr/suggestions?_sort=id:asc';
-  const reponse = await fetch(url);
-  return reponse.json();
-}
 
-export default async function grillhistoire(){
-  const url = 'https://api.gill-cote-bistro.fr/histoires?_sort=id:asc';
-  const reponse = await fetch(url);
-  return reponse.json();
-}
+
+
